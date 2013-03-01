@@ -1,5 +1,5 @@
 //
-//  katizoViewController.h
+//  katizoEmailViewController.h
 //  MauritiusCarRental
 //
 //  Created by admin on 2/26/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface katizoViewController : UIViewController
+@interface katizoEmailViewController : UIViewController
 
 @end
