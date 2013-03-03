@@ -10,4 +10,6 @@
 
 @interface katizoContactViewController : UIViewController
 
+
+@property (nonatomic,retain) IBOutlet UIWebView  *contactView;
 @end

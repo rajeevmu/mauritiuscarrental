@@ -13,6 +13,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+   // UITabBarItem *homeTab = [[UITabBarItem alloc] initWithTitle:@"Home" image:[UIImage imageNamed:@"home@2x.png"]  tag:200];
     return YES;
 }
 							

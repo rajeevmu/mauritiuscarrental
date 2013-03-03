@@ -13,6 +13,7 @@
 @end
 
 @implementation katizoContactViewController
+@synthesize contactView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

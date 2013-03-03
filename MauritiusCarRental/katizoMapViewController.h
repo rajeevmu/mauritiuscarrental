@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
-@interface katizoMapViewController : UIViewController
+@interface katizoMapViewController : UIViewController<MKMapViewDelegate>
+
+@property (nonatomic,retain) IBOutlet MKMapView *officeMap;
+
+-(IBAction)zoomOut:(id)sender;
 
 @end

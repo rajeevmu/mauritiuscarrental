@@ -30,7 +30,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.makesYearArray = [[NSArray alloc] initWithObjects:@"Toyota",@"Nissan", nil];
+    
+    if ([self.makesYearSelected isEqualToString:@"MAKES"])
+    {
+    
+        self.makesYearArray = [[NSArray alloc] initWithObjects:@"Toyota",@"Nissan", nil];
+    }
+    else
+    {
+        self.makesYearArray = [[NSArray alloc] initWithObjects:@"2013",@"2012", nil];
+    }
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  

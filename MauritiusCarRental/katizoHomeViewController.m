@@ -24,10 +24,14 @@
     }
     return self;
 }
-
+	
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    UIImage *img = [UIImage imageNamed:@"homeCar.png"];
+    UIImageView *bgView = [[UIImageView alloc] initWithImage:img];
+    self.tableView.backgroundView = bgView;
     self.menuItems = [[NSArray alloc]initWithObjects:@"CARS",@"4x4",@"SCOOTER",@"MINIBUS",nil];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -63,7 +67,7 @@
 
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-        katizoTypeViewController *typeViewController = [segue destinationViewController];
+    katizoTypeViewController *typeViewController = [segue destinationViewController];
     
     
     /*
@@ -80,6 +84,7 @@
    //OR THIS ONE
     typeViewController.vehicleType = [segue identifier];
     
-    
 }
+
+
 @end
