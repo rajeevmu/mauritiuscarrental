@@ -1,22 +1,18 @@
 //
-//  katizoModelsViewController.m
+//  katizoCarDetailViewController.m
 //  MauritiusCarRental
 //
-//  Created by admin on 2/26/13.
+//  Created by admin on 3/4/13.
 //  Copyright (c) 2013 admin. All rights reserved.
 //
 
-#import "katizoModelsViewController.h"
-#import "katizoMakesYearViewController.h"
+#import "katizoCarDetailViewController.h"
 
-@interface katizoModelsViewController ()
+@interface katizoCarDetailViewController ()
 
 @end
 
-@implementation katizoModelsViewController
-@synthesize  typeSelected;
-@synthesize makesYearSelected;
-@synthesize makesYearArray;
+@implementation katizoCarDetailViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -30,22 +26,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    
+   
     UIImage *image = [UIImage imageNamed:@"logo.png"];
     UIImageView *imgView = [[UIImageView alloc] initWithImage:image];
     
     self.navigationItem.titleView = imgView;
-    
-    if ([self.makesYearSelected isEqualToString:@"MAKES"])
-    {
-    
-        self.makesYearArray = [[NSArray alloc] initWithObjects:@"Toyota",@"Nissan", nil];
-    }
-    else
-    {
-        self.makesYearArray = [[NSArray alloc] initWithObjects:@"2013",@"2012", nil];
-    }
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -65,24 +50,15 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
    // Return the number of sections.
-    return 1;
+    return 3;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    // Return the number of rows in the section.
-    return [self.makesYearArray count];
+   // Return the number of rows in the section.
+    return 3;
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    static NSString *CellIdentifier = @"makesyear";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-    
-    cell.textLabel.text = [self.makesYearArray objectAtIndex:indexPath.row];
-    
-    return cell;
-}
 
 /*
 // Override to support conditional editing of the table view.
@@ -123,15 +99,6 @@
 }
 */
 
-
--(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
-    
-    //return [NSString stringWithFormat:@"%@,%@",self.typeSelected, self.makesYearSelected];
-    
-    return self.makesYearSelected;
-    
-}
-
 #pragma mark - Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -143,17 +110,6 @@
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
      */
-}
-
-
--(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    katizoMakesYearViewController   *makesYear = [segue destinationViewController];
-    
-    NSIndexPath *path = [self.tableView indexPathForSelectedRow];
-    
-    makesYear.modelName = [self.makesYearArray objectAtIndex:path.row];
-    
 }
 
 @end

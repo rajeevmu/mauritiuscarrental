@@ -30,10 +30,16 @@
 {
     [super viewDidLoad];
     self.navigationItem.title =self.vehicleType;
-    UIImage *image = [UIImage imageNamed:@"and_icon.png"];
+    UIImage *image = [UIImage imageNamed:@"logo.png"];
     UIImageView *imgView = [[UIImageView alloc] initWithImage:image];
     
     self.navigationItem.titleView = imgView;
+    
+    UIImage *backgroundImage = [UIImage imageNamed:@"tppeCar.png"];
+    UIImageView *bgImgView = [[UIImageView alloc]initWithImage:backgroundImage];
+    
+    self.tableView.backgroundView = bgImgView;
+
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  

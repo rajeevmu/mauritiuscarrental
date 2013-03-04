@@ -17,4 +17,6 @@
 @property (nonatomic,retain) IBOutlet UIImageView *imgCar;
 
 
+@property (nonatomic,strong) NSMutableArray *imageArray;
+
 @end

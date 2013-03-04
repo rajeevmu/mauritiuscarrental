@@ -29,6 +29,13 @@
 {
     [super viewDidLoad];
     
+    
+  
+    UIImage *image = [UIImage imageNamed:@"logo.png"];
+    UIImageView *imgView = [[UIImageView alloc] initWithImage:image];
+    
+    self.navigationItem.titleView = imgView;
+    
     UIImage *img = [UIImage imageNamed:@"homeCar.png"];
     UIImageView *bgView = [[UIImageView alloc] initWithImage:img];
     self.tableView.backgroundView = bgView;

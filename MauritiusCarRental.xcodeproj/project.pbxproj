@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		2315FCBD16E3AACF00EBF1F3 /* homecar.png in Resources */ = {isa = PBXBuildFile; fileRef = 2315FCBC16E3AACF00EBF1F3 /* homecar.png */; };
+		2315FCBF16E3CC0300EBF1F3 /* tppeCar.png in Resources */ = {isa = PBXBuildFile; fileRef = 2315FCBE16E3CC0300EBF1F3 /* tppeCar.png */; };
+		2315FCC316E3D62C00EBF1F3 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2315FCC216E3D62C00EBF1F3 /* logo.png */; };
+		2315FCC616E3D94E00EBF1F3 /* katizoContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2315FCC516E3D94E00EBF1F3 /* katizoContactViewController.m */; };
+		2315FCC916E3E3C100EBF1F3 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 2315FCC716E3E3C100EBF1F3 /* email.png */; };
+		2315FCCA16E3E3C100EBF1F3 /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 2315FCC816E3E3C100EBF1F3 /* phone.png */; };
+		2315FCCD16E3F56300EBF1F3 /* katizoCarDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2315FCCC16E3F56200EBF1F3 /* katizoCarDetailViewController.m */; };
+		2315FCD216E409F800EBF1F3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2315FCD016E409F800EBF1F3 /* Default.png */; };
+		2315FCD316E409F800EBF1F3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2315FCD116E409F800EBF1F3 /* Default@2x.png */; };
+		23253C3116E4D7D1006C4442 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 23253C3016E4D7D1006C4442 /* car.png */; };
 		2341B4CF16DD330C003C30D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2341B4CE16DD330C003C30D8 /* UIKit.framework */; };
 		2341B4D116DD330C003C30D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2341B4D016DD330C003C30D8 /* Foundation.framework */; };
 		2341B4D316DD330C003C30D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2341B4D216DD330C003C30D8 /* CoreGraphics.framework */; };
 		2341B4D916DD330C003C30D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2341B4D716DD330C003C30D8 /* InfoPlist.strings */; };
 		2341B4DB16DD330C003C30D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2341B4DA16DD330C003C30D8 /* main.m */; };
 		2341B4DF16DD330C003C30D8 /* katizoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2341B4DE16DD330C003C30D8 /* katizoAppDelegate.m */; };
-		2341B4E116DD330C003C30D8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2341B4E016DD330C003C30D8 /* Default.png */; };
-		2341B4E316DD330C003C30D8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2341B4E216DD330C003C30D8 /* Default@2x.png */; };
-		2341B4E516DD330C003C30D8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2341B4E416DD330C003C30D8 /* Default-568h@2x.png */; };
 		2341B4E816DD330C003C30D8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2341B4E616DD330C003C30D8 /* MainStoryboard.storyboard */; };
 		2341B4F316DD362B003C30D8 /* katizoTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2341B4F216DD362B003C30D8 /* katizoTypeViewController.m */; };
 		2341B4F616DD363D003C30D8 /* katizoModelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2341B4F516DD363D003C30D8 /* katizoModelsViewController.m */; };
-		2341B4F916DD3658003C30D8 /* katizoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2341B4F816DD3658003C30D8 /* katizoDetailViewController.m */; };
 		2341B4FC16DD367D003C30D8 /* katizoEmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2341B4FB16DD367D003C30D8 /* katizoEmailViewController.m */; };
 		2341B50816DD3D5E003C30D8 /* katizoHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2341B50716DD3D5E003C30D8 /* katizoHomeViewController.m */; };
-		23925EA816DF2BEC005819A2 /* katizoContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23925EA716DF2BEC005819A2 /* katizoContactViewController.m */; };
 		23925EAB16DF2BFB005819A2 /* katizoMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23925EAA16DF2BFB005819A2 /* katizoMapViewController.m */; };
 		23925EAD16DFDC10005819A2 /* and_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 23925EAC16DFDC10005819A2 /* and_icon.png */; };
 		23925EB116DFF8EA005819A2 /* katizoMakesYearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23925EB016DFF8EA005819A2 /* katizoMakesYearViewController.m */; };
@@ -76,6 +80,17 @@
 
 /* Begin PBXFileReference section */
 		2315FCBC16E3AACF00EBF1F3 /* homecar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homecar.png; sourceTree = "<group>"; };
+		2315FCBE16E3CC0300EBF1F3 /* tppeCar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tppeCar.png; sourceTree = "<group>"; };
+		2315FCC216E3D62C00EBF1F3 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		2315FCC416E3D94E00EBF1F3 /* katizoContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = katizoContactViewController.h; sourceTree = "<group>"; };
+		2315FCC516E3D94E00EBF1F3 /* katizoContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = katizoContactViewController.m; sourceTree = "<group>"; };
+		2315FCC716E3E3C100EBF1F3 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
+		2315FCC816E3E3C100EBF1F3 /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
+		2315FCCB16E3F56200EBF1F3 /* katizoCarDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = katizoCarDetailViewController.h; sourceTree = "<group>"; };
+		2315FCCC16E3F56200EBF1F3 /* katizoCarDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = katizoCarDetailViewController.m; sourceTree = "<group>"; };
+		2315FCD016E409F800EBF1F3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2315FCD116E409F800EBF1F3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		23253C3016E4D7D1006C4442 /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
 		2341B4CB16DD330C003C30D8 /* MauritiusCarRental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MauritiusCarRental.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2341B4CE16DD330C003C30D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2341B4D016DD330C003C30D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -86,22 +101,15 @@
 		2341B4DC16DD330C003C30D8 /* MauritiusCarRental-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MauritiusCarRental-Prefix.pch"; sourceTree = "<group>"; };
 		2341B4DD16DD330C003C30D8 /* katizoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = katizoAppDelegate.h; sourceTree = "<group>"; };
 		2341B4DE16DD330C003C30D8 /* katizoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = katizoAppDelegate.m; sourceTree = "<group>"; };
-		2341B4E016DD330C003C30D8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		2341B4E216DD330C003C30D8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		2341B4E416DD330C003C30D8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2341B4E716DD330C003C30D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		2341B4F116DD362B003C30D8 /* katizoTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = katizoTypeViewController.h; sourceTree = "<group>"; };
 		2341B4F216DD362B003C30D8 /* katizoTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = katizoTypeViewController.m; sourceTree = "<group>"; };
 		2341B4F416DD363D003C30D8 /* katizoModelsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = katizoModelsViewController.h; sourceTree = "<group>"; };
 		2341B4F516DD363D003C30D8 /* katizoModelsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = katizoModelsViewController.m; sourceTree = "<group>"; };
-		2341B4F716DD3658003C30D8 /* katizoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = katizoDetailViewController.h; path = ../katizoDetailViewController.h; sourceTree = "<group>"; };
-		2341B4F816DD3658003C30D8 /* katizoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = katizoDetailViewController.m; path = ../katizoDetailViewController.m; sourceTree = "<group>"; };
 		2341B4FA16DD367D003C30D8 /* katizoEmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = katizoEmailViewController.h; path = ../katizoEmailViewController.h; sourceTree = "<group>"; };
 		2341B4FB16DD367D003C30D8 /* katizoEmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = katizoEmailViewController.m; path = ../katizoEmailViewController.m; sourceTree = "<group>"; };
 		2341B50616DD3D5E003C30D8 /* katizoHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = katizoHomeViewController.h; sourceTree = "<group>"; };
 		2341B50716DD3D5E003C30D8 /* katizoHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = katizoHomeViewController.m; sourceTree = "<group>"; };
-		23925EA616DF2BEC005819A2 /* katizoContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = katizoContactViewController.h; sourceTree = "<group>"; };
-		23925EA716DF2BEC005819A2 /* katizoContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = katizoContactViewController.m; sourceTree = "<group>"; };
 		23925EA916DF2BFB005819A2 /* katizoMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = katizoMapViewController.h; sourceTree = "<group>"; };
 		23925EAA16DF2BFB005819A2 /* katizoMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = katizoMapViewController.m; sourceTree = "<group>"; };
 		23925EAC16DFDC10005819A2 /* and_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = and_icon.png; sourceTree = "<group>"; };
@@ -208,8 +216,6 @@
 				23925EAE16DFEF7A005819A2 /* images */,
 				2341B4FA16DD367D003C30D8 /* katizoEmailViewController.h */,
 				2341B4FB16DD367D003C30D8 /* katizoEmailViewController.m */,
-				2341B4F716DD3658003C30D8 /* katizoDetailViewController.h */,
-				2341B4F816DD3658003C30D8 /* katizoDetailViewController.m */,
 				2341B4DD16DD330C003C30D8 /* katizoAppDelegate.h */,
 				2341B4DE16DD330C003C30D8 /* katizoAppDelegate.m */,
 				2341B4E616DD330C003C30D8 /* MainStoryboard.storyboard */,
@@ -220,8 +226,6 @@
 				2341B4F516DD363D003C30D8 /* katizoModelsViewController.m */,
 				2341B50616DD3D5E003C30D8 /* katizoHomeViewController.h */,
 				2341B50716DD3D5E003C30D8 /* katizoHomeViewController.m */,
-				23925EA616DF2BEC005819A2 /* katizoContactViewController.h */,
-				23925EA716DF2BEC005819A2 /* katizoContactViewController.m */,
 				23925EA916DF2BFB005819A2 /* katizoMapViewController.h */,
 				23925EAA16DF2BFB005819A2 /* katizoMapViewController.m */,
 				23925EAF16DFF8EA005819A2 /* katizoMakesYearViewController.h */,
@@ -232,6 +236,10 @@
 				23925EB616E1E43C005819A2 /* katizoImageCollectionViewCell.m */,
 				23925F1816E2BDFA005819A2 /* katizoBranchAnnotation.h */,
 				23925F1916E2BDFC005819A2 /* katizoBranchAnnotation.m */,
+				2315FCC416E3D94E00EBF1F3 /* katizoContactViewController.h */,
+				2315FCC516E3D94E00EBF1F3 /* katizoContactViewController.m */,
+				2315FCCB16E3F56200EBF1F3 /* katizoCarDetailViewController.h */,
+				2315FCCC16E3F56200EBF1F3 /* katizoCarDetailViewController.m */,
 			);
 			path = MauritiusCarRental;
 			sourceTree = "<group>";
@@ -243,9 +251,8 @@
 				2341B4D716DD330C003C30D8 /* InfoPlist.strings */,
 				2341B4DA16DD330C003C30D8 /* main.m */,
 				2341B4DC16DD330C003C30D8 /* MauritiusCarRental-Prefix.pch */,
-				2341B4E016DD330C003C30D8 /* Default.png */,
-				2341B4E216DD330C003C30D8 /* Default@2x.png */,
-				2341B4E416DD330C003C30D8 /* Default-568h@2x.png */,
+				2315FCD016E409F800EBF1F3 /* Default.png */,
+				2315FCD116E409F800EBF1F3 /* Default@2x.png */,
 				23925F1E16E2C431005819A2 /* home.png */,
 				23925F2016E2C5E9005819A2 /* map.png */,
 				23925F2216E2C67B005819A2 /* contact.png */,
@@ -261,6 +268,11 @@
 				23925EB916E1FC58005819A2 /* 4x4 */,
 				23925EB816E1FC52005819A2 /* cars */,
 				23925EAC16DFDC10005819A2 /* and_icon.png */,
+				2315FCBE16E3CC0300EBF1F3 /* tppeCar.png */,
+				2315FCC216E3D62C00EBF1F3 /* logo.png */,
+				2315FCC716E3E3C100EBF1F3 /* email.png */,
+				2315FCC816E3E3C100EBF1F3 /* phone.png */,
+				23253C3016E4D7D1006C4442 /* car.png */,
 				2315FCBC16E3AACF00EBF1F3 /* homecar.png */,
 				23925F0416E2066B005819A2 /* button-send-email.png */,
 			);
@@ -384,9 +396,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2341B4D916DD330C003C30D8 /* InfoPlist.strings in Resources */,
-				2341B4E116DD330C003C30D8 /* Default.png in Resources */,
-				2341B4E316DD330C003C30D8 /* Default@2x.png in Resources */,
-				2341B4E516DD330C003C30D8 /* Default-568h@2x.png in Resources */,
 				2341B4E816DD330C003C30D8 /* MainStoryboard.storyboard in Resources */,
 				23925EAD16DFDC10005819A2 /* and_icon.png in Resources */,
 				23925EC616E1FDD3005819A2 /* car1.jpg in Resources */,
@@ -430,6 +439,13 @@
 				23925F2116E2C5E9005819A2 /* map.png in Resources */,
 				23925F2316E2C67B005819A2 /* contact.png in Resources */,
 				2315FCBD16E3AACF00EBF1F3 /* homecar.png in Resources */,
+				2315FCBF16E3CC0300EBF1F3 /* tppeCar.png in Resources */,
+				2315FCC316E3D62C00EBF1F3 /* logo.png in Resources */,
+				2315FCC916E3E3C100EBF1F3 /* email.png in Resources */,
+				2315FCCA16E3E3C100EBF1F3 /* phone.png in Resources */,
+				2315FCD216E409F800EBF1F3 /* Default.png in Resources */,
+				2315FCD316E409F800EBF1F3 /* Default@2x.png in Resources */,
+				23253C3116E4D7D1006C4442 /* car.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,15 +460,15 @@
 				2341B4DF16DD330C003C30D8 /* katizoAppDelegate.m in Sources */,
 				2341B4F316DD362B003C30D8 /* katizoTypeViewController.m in Sources */,
 				2341B4F616DD363D003C30D8 /* katizoModelsViewController.m in Sources */,
-				2341B4F916DD3658003C30D8 /* katizoDetailViewController.m in Sources */,
 				2341B4FC16DD367D003C30D8 /* katizoEmailViewController.m in Sources */,
 				2341B50816DD3D5E003C30D8 /* katizoHomeViewController.m in Sources */,
-				23925EA816DF2BEC005819A2 /* katizoContactViewController.m in Sources */,
 				23925EAB16DF2BFB005819A2 /* katizoMapViewController.m in Sources */,
 				23925EB116DFF8EA005819A2 /* katizoMakesYearViewController.m in Sources */,
 				23925EB416E1E330005819A2 /* katizoImageGalleryCollectionViewController.m in Sources */,
 				23925EB716E1E43C005819A2 /* katizoImageCollectionViewCell.m in Sources */,
 				23925F1A16E2BDFF005819A2 /* katizoBranchAnnotation.m in Sources */,
+				2315FCC616E3D94E00EBF1F3 /* katizoContactViewController.m in Sources */,
+				2315FCCD16E3F56300EBF1F3 /* katizoCarDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

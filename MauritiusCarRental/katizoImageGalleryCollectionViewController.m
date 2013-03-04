@@ -28,6 +28,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    UIImage *image = [UIImage imageNamed:@"logo.png"];
+    UIImageView *imgView = [[UIImageView alloc] initWithImage:image];
+    
+    self.navigationItem.titleView = imgView;
 }
 
 - (void)didReceiveMemoryWarning

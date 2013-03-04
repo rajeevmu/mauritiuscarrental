@@ -17,6 +17,7 @@
 @synthesize labelAvailability;
 @synthesize labelModel;
 @synthesize imgCar;
+@synthesize imageArray;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -30,7 +31,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-  
+    
+    NSLog(@"%@", self.modelName);
+    
+    UIImage *image = [UIImage imageNamed:@"logo.png"];
+    UIImageView *imgView = [[UIImageView alloc] initWithImage:image];
+    
+    self.navigationItem.titleView = imgView;
+    
+    
+    imageArray = [[NSMutableArray alloc] initWithObjects:@"car1.jpg",@"car2.jpg",@"car3.jpg", nil];
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
@@ -55,7 +66,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
    // Return the number of rows in the section.
-    return 3;
+    return [self.imageArray count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -70,14 +81,20 @@
     }
     // Configure the cell...
    //cell.textLabel.text = @"dsf";
-    UIImage *im = [UIImage imageNamed:@"and_icon.png"];
+    
+    
+    
+    UIImage *im = [UIImage imageNamed:[NSString stringWithFormat:@"%@",[imageArray objectAtIndex:indexPath.row]]];
     
     UIImageView *imgView = (UIImageView *) [cell viewWithTag:101];
     imgView.image = im;
     
     
-    UILabel *lab = (UILabel *) [cell viewWithTag:102];
-    lab.text = @"dsfsfdd";
+    UILabel *mainTitle = (UILabel *) [cell viewWithTag:102];
+    mainTitle.text = @"Toyota Corolla";
+    
+    UILabel *subTitle = (UILabel *) [cell viewWithTag:103];
+    subTitle.text = @"2 available";
     
     return cell;
 }

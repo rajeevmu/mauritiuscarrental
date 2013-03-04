@@ -9,15 +9,12 @@
 #import "katizoBranchAnnotation.h"
 
 @implementation katizoBranchAnnotation
-@synthesize  coord;
-@synthesize title;
-@synthesize subTitle;
 
-
--(void) dealloc
+-(id)initAnnotationWithImage:(id<MKAnnotation>)annotation reuseIdentifier:(NSString *)reuseIdentifier annotationWithImage:(UIImage *)image
 {
-    self.title = nil;
-    self.subTitle = nil;    
+    self = [super initWithAnnotation:annotation reuseIdentifier:reuseIdentifier];
+    self.image = image;
+    return self;
 }
 
 @end

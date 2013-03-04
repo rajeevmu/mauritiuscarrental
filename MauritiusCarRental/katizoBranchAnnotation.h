@@ -7,12 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreLocation/CoreLocation.h>
 #import <MapKit/MapKit.h>
 
-@interface katizoBranchAnnotation : NSObject <MKAnnotation>
+@interface katizoBranchAnnotation :MKAnnotationView
+{
+    
 
-@property (nonatomic,assign) CLLocationCoordinate2D *coord;
-@property (nonatomic,copy)  NSString *title;
-@property (nonatomic,copy) NSString *subTitle;
 
+    
+}
+
+-(id) initAnnotationWithImage:(id<MKAnnotation>)annotation   reuseIdentifier:(NSString *)reuseIdentifier    annotationWithImage:(UIImage *) image;
 @end
